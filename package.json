@@ -1,0 +1,29 @@
+{
+  "name": "real-time-chat-room",
+  "version": "1.0.0",
+  "description": "Create real-time chat room using Socket.io, Node &amp; Express",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PhoebeYahengWu/real-time-chat-room.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PhoebeYahengWu/real-time-chat-room/issues"
+  },
+  "homepage": "https://github.com/PhoebeYahengWu/real-time-chat-room#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.26.0",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
